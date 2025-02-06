@@ -24,14 +24,14 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'kaminari', '~> 1.2'
   spec.add_dependency 'liquid',   '~> 5.0'
-  spec.add_dependency 'rails',    '>= 6.0', '< 8.0'
+  spec.add_dependency 'rails',    '>= 6.0', '< 8.1'
 
   spec.add_development_dependency 'capybara',    '~> 3.34'
-  spec.add_development_dependency 'coveralls',   '~> 0.8'
+  spec.add_development_dependency 'coveralls_reborn',   '~> 0.28'
   spec.add_development_dependency 'guard-rspec', '~> 4.7'
   spec.add_development_dependency 'pry-byebug'
   spec.add_development_dependency 'pry-rails',   '~> 0.3'
-  spec.add_development_dependency 'rspec-rails', '~> 4.0'
-  spec.add_development_dependency 'simplecov',   '~> 0.16'
-  spec.add_development_dependency 'sqlite3',     '~> 1.4'
+  spec.add_development_dependency 'rspec-rails', '~> 7.1'
+  spec.add_development_dependency 'simplecov',   '~> 0.22'
+  spec.add_development_dependency 'sqlite3',     '~> 2.5'
 end

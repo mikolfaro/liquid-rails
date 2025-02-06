@@ -1,0 +1,14 @@
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
+
+gem 'capybara',    '~> 3.34'
+gem 'guard-rspec', '~> 4.7'
+gem 'pry-rails',   '~> 0.3'
+gem 'rails',       '~> 8.0'
+gem 'rake',        '~> 13.0'
+gem 'rspec-rails', '~> 7.1'
+gem 'simplecov',   '~> 0.22'
+gem 'sqlite3',     '~> 2.4'
+
+gemspec path: '../'
